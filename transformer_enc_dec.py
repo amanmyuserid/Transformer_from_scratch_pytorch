@@ -1,11 +1,9 @@
-try:
-    import torch
-    import torch.nn as nn
-    import torch.nn.functional as F
-    import math
-except ModuleNotFoundError as e:
-    print("Error: PyTorch is not installed. Please install it using 'pip install torch'")
-    raise e
+
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+import math
+
 
 # Define input parameters
 batch_size = 2  # Number of sequences processed in parallel
